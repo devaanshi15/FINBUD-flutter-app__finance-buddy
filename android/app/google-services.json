@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "317378056004",
+    "project_id": "finbud-a0eb3",
+    "storage_bucket": "finbud-a0eb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317378056004:android:ae9fd7e206e7b679da9111",
+        "android_client_info": {
+          "package_name": "com.example.finbud_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYe0GLolPzi5bx1gfXc-s9VaYfHInMv-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
