@@ -1,6 +1,6 @@
 // ignore_for_file: prefer_const_constructors
-import 'package:finbud_app/screens/dashboard.dart';
 import 'package:finbud_app/services/db.dart';
+import 'package:finbud_app/view/main_tab/main_tab_view.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
@@ -14,7 +14,7 @@ class AuthService {
       );
       await db.addUser(data, context);
       Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: ((context) => Dashboard())));
+        MaterialPageRoute(builder: ((context) => MainTabView())));
     } catch (e) {
       showDialog(
           context: context,
@@ -34,7 +34,7 @@ class AuthService {
         password: data['password'],
       );
       Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (context) => Dashboard()),
+        MaterialPageRoute(builder: (context) => MainTabView()),
       );
     } catch (e) {
       showDialog(

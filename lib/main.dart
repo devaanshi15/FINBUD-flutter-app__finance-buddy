@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, unused_import, deprecated_member_use
 
-import 'package:finbud_app/screens/sign_up.dart';
+import 'package:finbud_app/view/login/sign_up.dart';
+import 'package:finbud_app/view/login/welcome_view.dart';
 import 'package:finbud_app/widgets/auth_gate.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
       },
       
       debugShowCheckedModeBanner: false,
-      home: AuthGate(),
+      home: WelcomeView(),
     );
   }
 }
