@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors, unused_import, deprecated_member_use
 
+import 'package:finbud_app/view/add_subscription/add_subscription_view.dart';
 import 'package:finbud_app/view/login/sign_up.dart';
 import 'package:finbud_app/view/login/welcome_view.dart';
 import 'package:finbud_app/widgets/auth_gate.dart';
@@ -31,6 +32,7 @@ class MyApp extends StatelessWidget {
       
       debugShowCheckedModeBanner: false,
       home: WelcomeView(),
+      //home: MainTabView(),
     );
   }
 }

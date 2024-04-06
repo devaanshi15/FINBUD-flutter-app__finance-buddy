@@ -24,18 +24,19 @@ class _CalenderViewState extends State<CalenderView> {
   Random random = new Random();
 
   List subArr = [
-    {"name": "Spotify", "icon": "assets/img/spotify_logo.png", "price": "5.99"},
+    {"name": "Spotify", "icon": "assets/img/spotify_logo.png", "price": "29.0"},
     {
       "name": "YouTube Premium",
       "icon": "assets/img/youtube_logo.png",
-      "price": "18.99"
+      "price": "100.3"
     },
     {
       "name": "Microsoft OneDrive",
       "icon": "assets/img/onedrive_logo.png",
-      "price": "29.99"
+      "price": "400.35"
     },
-    {"name": "NetFlix", "icon": "assets/img/netflix_logo.png", "price": "15.00"}
+    {"name": "NetFlix", "icon": "assets/img/netflix_logo.png", "price": "250.00"},
+    {"name": "Fruits", "icon": "assets/img/fruits.png", "price": "80.00"}
   ];
 
     @override
@@ -70,16 +71,16 @@ class _CalenderViewState extends State<CalenderView> {
                           Stack(
                             alignment: Alignment.center,
                             children: [
-                              Row(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  Text(
-                                    "Calender",
-                                    style: TextStyle(
-                                        color: TColor.gray30, fontSize: 16),
-                                  ),
-                                ],
-                              ),
+                              // Row(
+                              //   mainAxisAlignment: MainAxisAlignment.center,
+                              //   children: [
+                              //     Text(
+                              //       "Calender",
+                              //       style: TextStyle(
+                              //           color: TColor.gray30, fontSize: 16),
+                              //     ),
+                              //   ],
+                              // ),
 
                               Row(
                                 children: [
@@ -100,7 +101,7 @@ class _CalenderViewState extends State<CalenderView> {
                             height: 20,
                           ),
                           Text(
-                            "Subs\nSchedule",
+                            "Your\nMonthly Calendar",
                             style: TextStyle(
                                 color: TColor.white,
                                 fontSize: 40,
@@ -113,7 +114,7 @@ class _CalenderViewState extends State<CalenderView> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text(
-                                "3 subscription for today",
+                                "Expenses for today",
                                 style: TextStyle(
                                     color: TColor.gray30,
                                     fontSize: 14,
@@ -234,32 +235,32 @@ class _CalenderViewState extends State<CalenderView> {
                             fontSize: 20,
                             fontWeight: FontWeight.bold),
                       ),
-                      Text(
-                        "\₹24.98",
-                        style: TextStyle(
-                            color: TColor.white,
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold),
-                      )
+                      // Text(
+                      //   "\₹24.98",
+                      //   style: TextStyle(
+                      //       color: TColor.white,
+                      //       fontSize: 20,
+                      //       fontWeight: FontWeight.bold),
+                      // )
                     ],
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        "01.08.2023",
+                        "07.04.2024",
                         style: TextStyle(
                             color: TColor.gray30,
                             fontSize: 12,
                             fontWeight: FontWeight.w500),
                       ),
-                      Text(
-                        "in upcoming bills",
-                        style: TextStyle(
-                            color: TColor.gray30,
-                            fontSize: 12,
-                            fontWeight: FontWeight.w500),
-                      )
+                      // Text(
+                      //   "in upcoming bills",
+                      //   style: TextStyle(
+                      //       color: TColor.gray30,
+                      //       fontSize: 12,
+                      //       fontWeight: FontWeight.w500),
+                      // )
                     ],
                   )
                 ],

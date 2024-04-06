@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:finbud_app/common/color_extension.dart';
 import 'package:finbud_app/common_widget/budgets_row.dart';
 import 'package:finbud_app/common_widget/custom_arc_180_painter.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import '../settings/settings_view.dart';
 
@@ -38,6 +39,110 @@ class _SpendingBudgetsViewState extends State<SpendingBudgetsView> {
       "total_budget": "600",
       "left_amount": "250.01",
       "color": TColor.primary10
+    },
+    {
+      "name": "Healthy Food",
+      "icon": "assets/img/auto_&_transport.png",
+      "spend_amount": "5.99",
+      "total_budget": "600",
+      "left_amount": "250.01",
+      "color": TColor.gray10
+    },
+    {
+      "name": "Junk food",
+      "icon": "assets/img/auto_&_transport.png",
+      "spend_amount": "5.99",
+      "total_budget": "600",
+      "left_amount": "250.01",
+      "color": TColor.primary20
+    },
+    {
+      "name": "Gifts",
+      "icon": "assets/img/auto_&_transport.png",
+      "spend_amount": "5.99",
+      "total_budget": "600",
+      "left_amount": "250.01",
+      "color": TColor.secondary50
+    },
+    {
+      "name": "Healthcare",
+      "icon": "assets/img/auto_&_transport.png",
+      "spend_amount": "5.99",
+      "total_budget": "600",
+      "left_amount": "250.01",
+      "color": TColor.gray30
+    },
+    {
+      "name": "Accessories",
+      "icon": "assets/img/auto_&_transport.png",
+      "spend_amount": "5.99",
+      "total_budget": "600",
+      "left_amount": "250.01",
+      "color": TColor.secondaryG50
+    },
+    {
+      "name": "Clothes",
+      "icon": "assets/img/auto_&_transport.png",
+      "spend_amount": "5.99",
+      "total_budget": "600",
+      "left_amount": "250.01",
+      "color": TColor.secondary0
+    },
+    {
+      "name": "Course material",
+      "icon": "assets/img/auto_&_transport.png",
+      "spend_amount": "5.99",
+      "total_budget": "600",
+      "left_amount": "250.01",
+      "color": TColor.gray70
+    },
+    {
+      "name": "Subscriptions",
+      "icon": "assets/img/auto_&_transport.png",
+      "spend_amount": "5.99",
+      "total_budget": "600",
+      "left_amount": "250.01",
+      "color": TColor.primary500
+    },
+    {
+      "name": "Others",
+      "icon": "assets/img/auto_&_transport.png",
+      "spend_amount": "5.99",
+      "total_budget": "600",
+      "left_amount": "250.01",
+      "color": TColor.gray40
+    },
+    {
+      "name": "Home Grooming",
+      "icon": "assets/img/auto_&_transport.png",
+      "spend_amount": "5.99",
+      "total_budget": "600",
+      "left_amount": "250.01",
+      "color": TColor.secondary50
+    },
+    {
+      "name": "Travel",
+      "icon": "assets/img/auto_&_transport.png",
+      "spend_amount": "5.99",
+      "total_budget": "600",
+      "left_amount": "250.01",
+      "color": TColor.gray50
+    },
+    {
+      "name": "Get together",
+      "icon": "assets/img/auto_&_transport.png",
+      "spend_amount": "5.99",
+      "total_budget": "600",
+      "left_amount": "250.01",
+      "color": TColor.primary5
+    },
+    {
+      "name": "Educational Subscriptions",
+      "icon": "assets/img/auto_&_transport.png",
+      "spend_amount": "5.99",
+      "total_budget": "600",
+      "left_amount": "250.01",
+      "color": TColor.secondaryG
     },
   ];
 
